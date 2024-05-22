@@ -1,0 +1,158 @@
+.miRutinaRosa{
+    display: flex;
+    margin-top: 9.375rem;
+    gap: 100px;
+    margin-bottom: 5rem;
+    margin-left: 21.875rem;
+    font-family: "Merriweather", serif;
+}
+.imagenRosa{
+    width: 450px;
+    height: 28.125rem;
+}
+.miRutina{
+    font-size: 16px;
+    margin-right: 100px;
+}
+.rutinaDiaria{
+    color: map-get($colores , "color5"); 
+    font-family: "Arvo", serif;
+    text-align: center;
+    font-size: 1.25rem;
+    margin: 6.25rem;
+}
+
+.rutinaBasicaBloque{
+    @include grid (repeat (2, 1fr), repeat (2, 1fr),center);
+    margin-top: 50px;
+    
+div h3{
+    margin-top: 50px;
+    font-family: "Arvo", serif;
+    
+}
+ul li{
+    margin-top: 50px;
+    font-family: "Merriweather", serif;
+    
+}
+}
+.rutinaBasica {
+    display: flex;
+    gap: 2.5rem ;
+    margin-bottom: 50px;
+    justify-content: center;
+
+div ul li{
+    list-style: none;
+}
+img{
+width: 28.125rem;
+height: 25rem;
+}
+div{
+margin-left: 3.125rem;
+}
+h3{
+margin-top: 60px;
+margin-bottom: 50px;
+margin-left: 10px;
+margin-right: 10px;
+font-size: 1.4375rem;
+}
+
+li{
+    margin-bottom: 50px;
+    margin-left: 10px;
+    font-size:1.25rem;
+}
+}
+
+
+
+.rutinaBasicaDos {
+    display: flex;
+    gap:0px ;
+    margin-bottom: 50px;
+    margin-left: 0px;
+    margin-right: 0px;
+    
+div ul li{
+    list-style: none;
+}
+img{
+width: 850px;
+height:425px;
+}
+div{
+margin-left: 3.125rem;
+}
+h3{
+margin-top: 60px;
+margin-bottom: 50px;
+margin-left: 10px;
+margin-right: 10px;
+font-size: 1.4375rem;
+}
+li{
+    margin-bottom: 50px;
+    margin-left: 10px;
+    font-size:1.25rem;
+}
+}
+
+
+.pielesNormalesSecas  {
+    background-color: map-get($colores , "color4"); 
+
+h3{
+    color: map-get($colores , "color5"); 
+    font-family: "Arvo", serif;
+    background-color: map-get($colores , "color4"); 
+    margin-left: 1.875rem ;
+    margin-right: 1.875rem;
+}
+ul li{
+font-family: "Merriweather", serif;
+margin-left: 1.875rem ;
+margin-right: 1.875rem;
+}
+}
+.rutinaDiariaDos {
+    color: map-get($colores , "color5"); 
+    text-align: center;
+
+}
+
+.pielesMixtasGrasas {
+    background-color: map-get($colores , "color4"); 
+    margin-right: 3.75rem;
+ul li{
+    margin-left: 1.875rem ;
+    margin-right: 1.875rem;
+}
+h3{
+    color: map-get($colores , "color5"); 
+    font-family: "Arvo", serif;
+    background-color: map-get($colores , "color4"); 
+    font-size: 1.25rem;
+    margin-left: 3.75rem;
+    margin-right: 1.875rem;
+}
+}
+.productosExtra {
+    color: map-get($colores , "color5"); 
+    background-color: map-get($colores , "color1"); 
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+h3{
+    font-family: "Arvo", serif;
+
+}
+h4{
+    font-family: "Merriweather", serif;
+} }

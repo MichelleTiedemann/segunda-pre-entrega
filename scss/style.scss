@@ -1,0 +1,23 @@
+@import "./utilities/variables";
+@import "./utilities/mapas";
+@import "./utilities/mixins";
+
+
+
+@import "./base/reset"; 
+@import "./base/tipografias";
+
+@import "./layout/header";
+@import "./layout/main-inicio";
+@import "./layout/main-piel";
+@import "./layout/main-preguntas";
+@import "./layout/main-rutina";
+@import "./layout/main-mitos";
+@import "./layout/footer";
+
+@import "./layout/media/media1440";
+@import "./layout/media/media1024";
+@import "./layout/media/media768";
+@import "./layout/media/media425";
+@import "./layout/media/media375";
+@import "./layout/media/media320";

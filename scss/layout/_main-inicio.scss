@@ -1,0 +1,36 @@
+.bloqueUno {
+    display: flex;
+    justify-content: center;
+    margin-left: 1.25rem;
+    margin-top: 9.375rem;
+    gap: 8.125rem;
+}
+.inicioInformacion h2{
+    font-family: "Merriweather", serif;
+    font-size: 18px;
+    margin-left: 150px;
+}
+.imagenInicio {
+    width: 25rem;
+    height: 35.625rem;
+    margin-right: 21.875rem;
+}
+.inicioInfo{
+    font-family: "Arvo", serif;
+    margin-top: 140px;
+    margin-bottom: 70px;
+    margin-left: 30px;
+}
+.cuidaTuPiel {
+    font-family: "Arvo", serif;
+    
+}
+.inicioInfo h2 {
+    font-family: "Arvo", serif;
+    color: map-get($colores , "color2"); 
+
+}
+
+.inicioInfo h3 {
+    font-family: "Merriweather", serif;  
+}

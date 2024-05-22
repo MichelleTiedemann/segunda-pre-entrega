@@ -1,0 +1,66 @@
+/**@mixin flex(
+        $justify-content: null, 
+        $align-items: null,
+        $gap : null,
+        $flex-direction: null,
+        $flex-wrap: null) {
+    display: flex;
+    @if $justify-content != null {
+        justify-content: $justify-content;
+    }
+    @if $align-items != null {
+        align-items: $align-items;
+    }
+    @if $gap != null {
+        gap: $gap;
+    }
+    @if $flex-direction != null {
+        flex-direction: $flex-direction;
+    }
+    @if $flex-wrap != null {
+        flex-wrap: $flex-wrap;
+    }
+};
+
+
+// Mixin Grid
+@mixin grid(
+    $repeat: null,
+    $width-columns: null,
+    $gap: null,
+    $row-gap: null,
+    $column-gap: null,
+) {
+    display: grid;
+    @if $repeat != null && $width-columns != null {
+        grid-template-columns: repeat($repeat, $width-columns);
+    }
+    @if $gap != null {
+        gap: $gap;
+    }
+    @if $gap != null {
+        gap: $gap;
+    }
+    @if $row-gap != null {
+        row-gap: $row-gap;
+    }
+    @if $column-gap != null {
+        column-gap: $column-gap;
+    }
+    grid-auto-columns: max-content;
+}
+*/
+@mixin flex ($direction , $justify, $aling, $gap){
+    display: flex;
+    flex-direction:$direction;
+    justify-content: $justify;
+    align-items:$aling;
+    gap: $gap;
+}
+
+@mixin grid ($col,$row,$justify,){
+    display: grid;
+    grid-template-columns: $col;
+    grid-template-rows: $row;
+    justify-content: $justify;
+}

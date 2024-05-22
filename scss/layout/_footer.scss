@@ -1,0 +1,11 @@
+
+.iconos{
+    @include flex (row, center, center , 6.875rem) ;
+    background-color: map-get($colores , "color4")
+}
+.iconos h2 {
+font-family: "Arvo", serif;
+color: map-get($colores , "color1"); 
+margin-left: 15.625rem;
+font-size: 1.875rem;
+}

@@ -1,0 +1,79 @@
+.index{
+    font-family: "Arvo", serif;
+    font-weight: 400;
+    font-size: 5rem;
+    font-style: normal;
+    text-align: center;
+}
+.tracking-in-contract {  
+    font-family: "Arvo", serif;    
+    text-align: center;
+    text-decoration: none;
+    margin: 1.25rem 0px; 
+    color: map-get($colores , "color1"); 
+    -webkit-animation: tracking-in-contract 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+    animation: tracking-in-contract 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+    }
+
+ @-webkit-keyframes tracking-in-contract {
+    0% {
+      letter-spacing: 1em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      letter-spacing: normal;
+      opacity: 1;
+    }
+  }
+  @keyframes tracking-in-contract {
+    0% {
+      letter-spacing: 1em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      letter-spacing: normal;
+      opacity: 1;
+    }
+  }
+  
+
+header{
+    text-align: center;
+    text-decoration: none;
+    margin: 20px 0px; 
+    position: sticky;
+    width: 100%;
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+a {
+    font-family: "Merriweather", serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: map-get($colores , "color2"); ;
+    text-align: center;
+}
+nav ul li a:hover{
+  color: map-get($colores , "color5"); ;
+
+}
+h2{
+  color: map-get($colores , "color3"); 
+    text-align: center;
+    font-family: "Merriweather", serif;
+    margin-top: 30px;
+    font-size: 20px;
+    
+}
+}

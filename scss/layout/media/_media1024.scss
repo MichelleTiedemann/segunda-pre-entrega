@@ -1,0 +1,104 @@
+@media (max-width : 1024px)/** Laptop**/{
+    .inicioInformacion h2{
+        font-size: 16px;
+    }
+    .imagenInicio{
+        width: 28.125rem;
+        height: 450px;
+    }
+    .iconos{
+        gap: 6.25rem;
+    }
+    .iconouno{
+        margin-left: 0px;
+    }
+    .iconos h2{
+        margin-right: 3.125rem;
+        margin-left: 6.25rem;
+    }
+    .fotosPieles img{
+        width: 21.875rem;
+        height: 21.875rem;
+        margin-left: 1.875rem;
+    }
+    .tiposDePiel h2{
+        font-size: 2.1875rem;
+    }
+    .texto-preguntas{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .miRutinaRosa{
+        margin-left: 200px;
+    
+    }
+    .imagenRosa {
+        width: 520px;
+        height: 520px;
+    }
+    .miRutina{
+        font-size: 18px;
+    }
+    .rutinaDiaria{
+        align-items: center;
+    }
+    
+    .rutinaBasicaBloque{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .rutinaBasica{
+        display: flex;
+        flex-direction: column;
+    }
+    .rutinaBasica img{
+        margin-left: 50px;
+        width: 800px;
+        height: 500px;
+    }
+    
+    .rutinaBasicaDos{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .rutinaBasicaDos img{
+        width: 800px;
+        height: 500px;
+        margin-right: 150px;
+    }
+    .rutinaBasicaDos div{
+        margin-left: 200px;
+        margin-right: 150px;
+    }
+    .rutinaBasicaDos div ul li{
+        font-size: 18px;
+    }
+    
+    
+    .imagenesDeMitos{
+        margin-left: 50px;
+        margin-right: 100px;
+    }
+    .imagenesDeMitosDos{
+        margin-left: 100px;
+        margin-right: 150px;
+    }
+    .MitoUno{
+        width: 550px;
+        height:550px;
+    }
+    .MitoDos{
+        width: 550px;
+        height:550px;
+    }
+    .MitoTres{ 
+        width: 550px;
+        height:550px;
+    }
+    .MitoCuatro{
+        width: 450px;
+        height:550px;
+    }
+    }

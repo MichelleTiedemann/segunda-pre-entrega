@@ -1,0 +1,73 @@
+@media (max-width : 768px)/** Tablet**/{
+    .iconoMiPiel{
+        display: flex;
+        margin: 50px;
+        justify-content: center;
+    }
+    .iconoMiPiel img{
+        width: 12.5rem;
+        height:15.625rem;
+        margin-left: 80px;
+    }
+    .iconoMiPiel h3{
+        font-size: 10px;
+        margin-bottom: 3.125rem;
+    }
+    .fotosPieles img{
+        width: 250px;
+        height: 250px;
+        margin-left: 1.875rem;
+    }
+    .tiposDePiel h2{
+        font-size: 1.875rem;
+    }
+    
+    .img-preguntas{
+        height: 18.75rem;
+    }
+    .miRutinaRosa{
+        margin-left: 50px;
+    }
+    .rutinaBasicaBloque{
+        margin-right: 40px;
+    }
+    .rutinaBasica img{
+        margin-left: 50px;
+        width: 600px;
+        height: 400px;
+    }
+    .rutinaBasicaDos img{
+        width: 600px;
+        height: 400px;
+        margin-right: 150px;
+    }
+    .imagenesDeMitos {
+        justify-content: center;
+        }
+    .MitoUno{
+        width: 450px;
+        height: 450px;
+    }    
+    .MitoDos{
+        width: 450px;
+        height: 450px;
+    }
+    .MitoTres{
+        width: 450px;
+        height: 450px;
+    }
+    .MitoCuatro{
+        width: 450px;
+        height: 450px;
+    }
+    .iconos{
+        gap: 4.6875rem;
+    }    
+    .iconouno{
+        margin-left: 28.125rem;
+        }
+    .iconos h2{
+        margin-right: 31.25rem;
+        }
+        
+    }
